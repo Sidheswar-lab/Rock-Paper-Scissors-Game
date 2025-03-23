@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #92BEAD;
+}
+.dark {
+    background-color: grey;
+    color: whitesmoke;
+}
+.light{
+    background-color: #92BEAD;
+}
+h1{
+    text-align: center;
+    color: #F24333;
+    margin-top: 2rem;
+}
+.choice{
+    height: 200px;
+    width: 200px;
+    margin-top: 2rem;
+    border-radius: 50%;
+    background-color: #EAF2E3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 175px;
+    width: 175px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: #F5F749;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 7rem;
+    color: #5B2333;
+}
+#user-sc{
+    margin-left: 1.4rem;
+    font-size: 4rem;
+}
+#comp-sc{
+    margin-left: 7rem;
+    font-size: 4rem;
+}
+#msg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+#msg{
+    font-size: 2rem;
+    color: #F24333;
+}
+#restart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+#restart button{
+    font-size: 2rem;
+    background-color: #F5F749;
+}
+#restart button:hover{
+    opacity: 0.75;
+}
+#restart button:active{
+    background-color :#5B2333
+}
+#winner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
